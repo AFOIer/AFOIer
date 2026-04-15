@@ -2,6 +2,7 @@ site_name: AFOIer
 site_url: https://afoier.wiki
 theme:
   name: material
+  language: zh
 nav:
   - 首页: index.md
   - 关于: about.md
