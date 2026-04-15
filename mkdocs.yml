@@ -5,4 +5,4 @@ theme:
   language: zh
 nav:
   - 首页: index.md
-  - 关于test: about.md
+  - 关于tests: about.md
