@@ -1,0 +1,27 @@
+name: Deploy to gh-pages branch
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 需要写入权限来推送分支
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - run: pip install mkdocs-material
+      
+      - name: Build and Deploy to gh-pages branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # mkdocs gh-deploy 会自动处理 gh-pages 分支的创建/更新
+          mkdocs gh-deploy --force --clean
