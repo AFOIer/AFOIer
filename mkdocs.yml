@@ -3,6 +3,13 @@ site_url: https://afoier.wiki
 theme:
   name: material
   language: zh
+  features:
+    - navigation.tabs
+    - navigation.top
 nav:
   - 首页: index.md
+  - 高校信息: 
+    - 强基计划: 
+      - 总述: colleges/oh.md
+      - 泛信息类专业汇总: colleges/oh-cs.md
   - 关于: about.md
