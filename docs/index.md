@@ -6,8 +6,6 @@
 
 由于本项目主要面向退役 OI(信息学竞赛) 选手，可能会使用一些竞赛领域常用的缩写，如果引起疑惑或误解，欢迎在 Issue 或评论区（还在咕咕）提出。
 
-项目暂时使用 [https://afoier.github.io/AFOIer/](https://afoier.github.io/AFOIer/) 访问，后续拟启用 [afoier.wiki](https://afoier.wiki) 独立域名。
-
 ## 引言
 
 我常常追忆过去。
