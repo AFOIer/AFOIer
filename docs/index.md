@@ -26,4 +26,6 @@
 
 本项目在 Github 上维护，基于 Github Pages 部署，如果希望参与贡献，欢迎直接提出 PR/Issue；请注意项目仓库为 Github 的公开仓库，即任何人都能查询到某段文本的作者，如果对个人隐私等方面有顾虑，可以考虑开小号活动。
 
-具体项目格式可以查阅 [MkDocs](https://www.mkdocs.org/) 和 (Material for MkDocs)[https://squidfunk.github.io/mkdocs-material/getting-started/] 项目文档。
+具体项目格式可以查阅 [MkDocs](https://www.mkdocs.org/) 和 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/) 项目文档。
+
+页面使用 Markdown 格式，支持 KaTeX 数学公式显示。
