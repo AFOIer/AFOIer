@@ -2,6 +2,12 @@
 
 属于退役 OIer 的专属维基平台。
 
+[Github 仓库链接](https://github.com/AFOIer/AFOIer)
+
+由于本项目主要面向退役 OI(信息学竞赛) 选手，可能会使用一些竞赛领域常用的缩写，如果引起疑惑或误解，欢迎在 Issue 或评论区（还在咕咕）提出。
+
+项目暂时使用 [https://afoier.github.io/AFOIer/](https://afoier.github.io/AFOIer/) 访问，后续拟启用 [afoier.wiki](afoier.wiki) 独立域名。
+
 ## 引言
 
 我常常追忆过去。
@@ -15,3 +21,9 @@
 过去已经凝固，我带着回忆向前，只是时常疏于保管，回忆也在改变着各自的形态。这给我的追忆旅程带来些许挑战。
 
 我该在哪里停留？我问我自己。
+
+## 贡献方式
+
+本项目在 Github 上维护，基于 Github Pages 部署，如果希望参与贡献，欢迎直接提出 PR/Issue；请注意项目仓库为 Github 的公开仓库，即任何人都能查询到某段文本的作者，如果对个人隐私等方面有顾虑，可以考虑开小号活动。
+
+具体项目格式可以查阅 [MkDocs](https://www.mkdocs.org/) 和 (Material for MkDocs)[https://squidfunk.github.io/mkdocs-material/getting-started/] 项目文档。
