@@ -25,4 +25,8 @@ nav:
     - 强基计划: 
       - 总述: colleges/oh.md
       - 泛信息类专业汇总: colleges/oh-cs.md
+    - 综合评价招生:
+      - 总述: colleges/admission-outline.md
+    - 省份单独招生机制:
+      - 总述: colleges/admission-provinces.md
   - 关于: about.md
