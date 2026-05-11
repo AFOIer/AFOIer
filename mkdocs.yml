@@ -30,3 +30,8 @@ nav:
     - 省份单独招生机制:
       - 总述: colleges/admission-provinces.md
   - 关于: about.md
+  - 沙盒:
+    - 二级目录:
+      - 测试页面1: sandbox/page1.md
+      - 三级目录:
+        - 测试页面2: sandbox/page2.md
