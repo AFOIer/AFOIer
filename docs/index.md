@@ -28,4 +28,4 @@
 
 页面使用 Markdown 格式，支持 KaTeX 数学公式显示。
 
-为了便于贡献者熟悉 wiki 系统，本站新增了 [沙盒](./sandbox/page1/) 板块供测试 Markdown 语法等元素。
+为了便于贡献者熟悉 Wiki 系统，本站新增了 [沙盒](./sandbox/page1/) 板块供测试 Markdown 语法等元素。
