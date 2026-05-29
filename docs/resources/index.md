@@ -1,114 +1,135 @@
-# 算法竞赛资源索引
+# 退役后学习资源
 
-> 面向现役和退役 OIer 的优质资源汇总。收录以质量和长期价值为优先，不追求大而全。
+> AFO 之后，竞赛技能不再是主线。这里收集退役 OIer 在大学阶段可能用到的学习资源——文化课补缺、CS 专业课、英语、学习方法。
 
-⚠️ 本页推荐的资源可能随时间变化。如果你发现链接失效或有更好的替代品，欢迎提 PR 更新。
+⚠️ 本页资源由社区推荐，质量和时效性可能有差异。欢迎提 PR 补充或更新。
 
-## 学习路线
+## 文化课补缺
 
-以下是一个从零基础到 NOI 水平的粗略路线图。每个人进度不同，仅作方向参考。
+很多 OIer 高中大量时间花在机房，语数英物化等文化课基础薄弱。进入大学后，以下资源可以帮助补上短板。
 
-### 入门阶段
+### 数学
 
-目标：掌握编程语言基础、理解基本算法和数据结构。
+大学 CS 对数学的要求不低（高数、线代、概率论、离散数学）。OI 训练过的组合数学和数论功底有一定帮助，但微积分和线性代数通常需要从头学。
 
-- 学习一门语言（C++ 是 OI 主流选择）
-- 基本输入输出、循环、数组、字符串、函数
-- 简单模拟题和枚举题
-
-推荐练习平台：[洛谷入门题单](https://www.luogu.com.cn/training/list)
-
-### 普及组阶段
-
-目标：能够稳定解决 CSP-J 难度的题目。
-
-- 基础算法：排序、贪心、二分、前缀和与差分
-- 基础数据结构：栈、队列、链表
-- 基础数学：质数、最大公约数、快速幂、组合数
-- 搜索：DFS、BFS、回溯
-- 简单 DP：线性 DP、背包问题
-
-### 提高组阶段
-
-目标：CSP-S 一等奖 / 冲击省队。
-
-- 进阶数据结构：树状数组、线段树、平衡树、并查集
-- 图论：最短路、最小生成树、强连通分量、二分图匹配
-- 进阶 DP：树形 DP、状压 DP、数位 DP、区间 DP、斜率优化入门
-- 字符串：哈希、KMP、字典树
-- 数学：欧拉函数、中国剩余定理、高斯消元、莫比乌斯反演入门
-- 杂项：分块、莫队、离线技巧、二分答案
-
-### 省选 / NOI 阶段
-
-目标：进省队、冲击 NOI 奖牌。
-
-- 高级数据结构：LCT、可持久化数据结构、树套树
-- 图论：网络流（最大流、最小割、费用流）、2-SAT
-- 字符串：AC 自动机、后缀数组、后缀自动机
-- DP：DP 优化（斜率优化、四边形不等式、决策单调性）、插头 DP
-- 数学：多项式、生成函数、博弈论
-- 计算几何（部分选手）
-
-### 省选以上
-
-目标：冲击国家队（仅极少数人）。
-
-- 论文级算法的理解和实现
-- 构造与证明能力的极度提升
-- 比赛策略和心态的极致打磨
-
-> 达到这个阶段已经远超"普通经验帖"的覆盖范围，建议直接读国家集训队论文和顶级选手的博客。
-
-## 经典书籍
-
-| 书名 | 作者 | 适合阶段 | 说明 |
-|------|------|:------:|------|
-| 《算法竞赛入门经典》（紫书）| 刘汝佳 | 入门 - 提高 | 最经典的 OI 入门书，含大量例题 |
-| 《算法竞赛进阶指南》（蓝书）| 李煜东 | 提高 - 省选 | 覆盖提高组到省选的核心知识点 |
-| 《信息学奥赛一本通》 | 董永建 | 入门 - 普及 | 适合零基础入门的教材 |
-| 《挑战程序设计竞赛》（白书）| 秋叶拓哉等 | 入门 - 提高 | 日本经典 OI 教程，题型风格不同 |
-| 《算法导论》（CLRS）| Cormen 等 | 提高 - | 大部头参考书，适合系统学习，不适合按顺序读 |
-| 《具体数学》 | Graham 等 | 省选 - | OI 数学知识的深度教科书 |
-| 《组合数学》 | Brualdi | 省选 - | 进阶组合数学参考 |
-
-## 在线评测平台
-
-| 平台 | 特点 |
+| 资源 | 说明 |
 |------|------|
-| [Luogu 洛谷](https://www.luogu.com.cn) | 国内最大 OI 社区，题目丰富，有题解和讨论区 |
-| [Codeforces](https://codeforces.com) | 俄罗斯平台，定期有 rated 比赛，全球选手同场竞技 |
-| [AtCoder](https://atcoder.jp) | 日本平台，题目质量极高，Beginner Contest 适合新手 |
-| [LibreOJ](https://loj.ac) | 开源 OJ，收录大量高质量题目和集训队论文配套题 |
-| [Universal OJ](https://uoj.ac) | 由退役 OIer 维护，有 NOI 模拟赛 |
-| [HydroOJ](https://hydro.ac) | 新一代 OJ 框架，多校使用 |
-| [Virtual Judge](https://vjudge.net) | 聚合多个 OJ，方便组队训练和补题 |
+| [3Blue1Brown 线性代数](https://www.3blue1brown.com/topics/linear-algebra) | 可视化讲解线性代数的本质，适合建立直觉（B站有中文字幕版） |
+| [3Blue1Brown 微积分](https://www.3blue1brown.com/topics/calculus) | 同上，微积分系列 |
+| [MIT 18.06 线性代数](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) | Gilbert Strang 的经典课程 |
+| [MIT 18.01 单变量微积分](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) | MIT 公开课，内容扎实 |
+| 《普林斯顿微积分读本》 | 适合自学的微积分教材，比国内教材友好 |
+| [Khan Academy 数学](https://www.khanacademy.org/math) | 从中学到大学数学全覆盖，适合基础薄弱的同学 |
 
-## 博客与公开课
+### 物理
 
-对于退役 OIer 来说，以下内容可能有长期参考价值：
+部分 CS 专业需要大学物理。如果高中物理底子弱：
 
-- [OI-wiki](https://oi-wiki.org) — 编程竞赛知识整合站点，最全面的中文 OI 知识库
-- [国家集训队论文](https://github.com/enkerewpo/OI-Public-Library) — 历年国家集训队选手的论文，OI 圈最硬核的内容
-- [Codeforces 博客](https://codeforces.com/blog/entry) — 全球竞赛社区的技术博客，有很多高质量题解和教程
-- [AtCoder Library (ACL)](https://atcoder.jp/posts/517) — AtCoder 官方提供的算法库及文档
-
-## 实用工具
-
-| 工具 | 用途 |
+| 资源 | 说明 |
 |------|------|
-| [CF-Predictor](https://cf-predictor-frontend.vercel.app) | Codeforces 比赛后预测 Rating 变化 |
-| [CF Tracker](https://cftracker.netlify.app) | 追踪 Codeforces 刷题进度 |
-| [OIerDb](https://www.pronoiadb.top) | 中国 OIer 数据库，查询历史比赛成绩 |
-| [VisualGO](https://visualgo.net/zh) | 算法可视化，帮助理解数据结构和算法运行过程 |
-| [USACO Guide](https://usaco.guide) | 美国 USACO 的备考指南，英文 |
-| [CP-Algorithms](https://cp-algorithms.com) | 竞赛算法百科，英文 |
+| [Khan Academy 物理](https://www.khanacademy.org/science/physics) | 从力学到电磁学，适合补高中基础 |
+| 《费曼物理学讲义》 | 经典但不适合应试，适合想真正理解物理的人 |
+| [MIT 8.01 经典力学](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) | MIT 物理入门课 |
+
+### 语文 / 写作
+
+OIer 常见的另一个弱项。大学里的实验报告、论文、保研文书、申请 PS 都需要基本的写作能力。
+
+| 资源 | 说明 |
+|------|------|
+| 《金字塔原理》 | 结构化思考和表达，对技术写作有帮助 |
+| 《风格感觉》 | Steven Pinker 的写作指南，侧重清晰表达 |
+| [The Writer's Diet](http://writersdiet.com) | 在线工具，检测写作中的冗余和臃肿 |
+
+## 英语
+
+OIer 中英语不强的不在少数——高中时间给了机房，英语课可能经常在睡觉。但大学里英语直接影响四六级、保研面试、出国申请、读英文文档。
+
+### 通用
+
+| 资源 | 说明 |
+|------|------|
+| [Anki](https://apps.ankiweb.net) | 间隔重复记忆软件，背单词效率远超传统方法 |
+| [墨墨背单词](https://www.maimemo.com) | 国内流行的背单词 App，基于遗忘曲线 |
+| [每日英语听力](https://www.eudic.net) | 听力材料丰富，适合日常磨耳朵 |
+| [YouTube 英语频道](https://www.youtube.com) | 找自己感兴趣的话题看英文视频，比硬背单词高效得多 |
+
+### 四六级
+
+- 历年真题是最有效的备考资料（淘宝/学校打印店均可获得）
+- 作文模板可以短期提分但不要过度依赖
+- OIer 的通病是阅读还行（读题读惯了）、听力写作短板明显
+
+### 托福 / 雅思
+
+如果考虑出国，见 [出国留学](../colleges/overseas.md) 中的时间规划建议。
+
+| 资源 | 说明 |
+|------|------|
+| [小站托福 / 小站雅思](https://www.zhan.com) | 免费的 TPO 练习和机经 |
+| [托福考满分](https://toefl.kmf.com) | 在线模考和练习 |
+| 《托福考试官方指南》（OG） | ETS 出品，了解考试形式的必读 |
+| [Simon's IELTS](https://ielts-simon.com) | 前雅思考官的个人网站，写作部分尤为推荐 |
+
+## CS 专业课自学
+
+OIer 进大学后，数据结构课基本不需要听——但其他课需要。以下资源适合在课堂之外加深理解或提前预习。
+
+### 计算机基础
+
+| 资源 | 说明 |
+|------|------|
+| [CS50](https://cs50.harvard.edu) | Harvard 的 CS 入门课，David Malan 讲得极好 |
+| [CMU 15-213 CSAPP](https://csapp.cs.cmu.edu) | 深入理解计算机系统，CS 必读书之一 |
+| 《计算机程序的构造和解释》（SICP） | 经典中的经典，但节奏慢，适合有余力时读 |
+| [Nand2Tetris](https://www.nand2tetris.org) | 从与非门开始搭建一台计算机，适合想理解底层的人 |
+
+### 操作系统
+
+| 资源 | 说明 |
+|------|------|
+| [MIT 6.S081](https://pdos.csail.mit.edu/6.828/) | MIT 操作系统课，基于 xv6 教学内核，动手写代码 |
+| 《Operating Systems: Three Easy Pieces》（OSTEP） | 最好的操作系统入门书，免费在线阅读 |
+| [南京大学 操作系统](https://jyywiki.cn/OS/) | 蒋炎岩的 OS 课，国内口碑很好的操作系统课程 |
+
+### 计算机网络
+
+| 资源 | 说明 |
+|------|------|
+| 《计算机网络：自顶向下方法》 | 最适合自学的计网教材 |
+| [Stanford CS144](https://cs144.github.io) | Stanford 计算机网络课，含动手 Lab |
+
+### 其他方向
+
+| 资源 | 说明 |
+|------|------|
+| [UCB CS61B](https://sp25.datastructur.es) | UCB 数据结构课，OIer 可以快速过一遍了解 Java |
+| [Stanford CS229](https://cs229.stanford.edu) | Stanford 机器学习课，偏数学推导 |
+| [Andrej Karpathy 的 YouTube](https://www.youtube.com/@AndrejKarpathy) | 从零实现 GPT 等教程，动手导向 |
+| [The Missing Semester](https://missing.csail.mit.edu) | MIT 的"学校不教但每个程序员都该会"的课：shell、vim、git、调试等 |
+
+## 学习方法与效率
+
+OI 退役后，效率工具和学习方法可能需要重新审视——竞赛中的"单机模式"在大学和职场不太适用。
+
+| 资源 | 说明 |
+|------|------|
+| 《如何阅读一本书》 | 讲怎么深度阅读，不仅是翻完 |
+| 《深度工作》 | Cal Newport 关于专注和深度思考的书 |
+| [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | Coursera 上最受欢迎的课之一，讲学习方法论 |
+| [Zotero](https://www.zotero.org) | 开源文献管理工具，写论文/看论文必备 |
+| [Obsidian](https://obsidian.md) | 基于本地 Markdown 的笔记工具，适合搭建个人知识库 |
+
+## 公开课平台
+
+| 平台 | 说明 |
+|------|------|
+| [Coursera](https://www.coursera.org) | 国际公开课平台，部分课程可免费旁听 |
+| [edX](https://www.edx.org) | 类似 Coursera，MIT/Harvard 的课程较多 |
+| [MIT OpenCourseWare](https://ocw.mit.edu) | MIT 全部课程资料免费公开 |
+| [中国大学 MOOC](https://www.icourse163.org) | 国内高校的在线课程平台 |
+| [Bilibili 知识区](https://www.bilibili.com/v/knowledge) | 大量搬运和自制课程，搜索效率高 |
 
 ## 投稿方式
 
 如果你有值得推荐的资源想要加入本页，请 Fork [AFOIer](https://github.com/AFOIer/AFOIer)，编辑 `docs/resources/index.md`，提交 PR 标题以 `[资源]` 开头。
-
-新增资源的收录标准：
-- 仍在维护中（近一年有更新）
-- 内容质量经过验证
-- 不与已有条目重复
