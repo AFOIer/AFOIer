@@ -21,14 +21,16 @@ extra_css:
 
 nav:
   - 首页: index.md
-  - 高校信息: 
-    - 强基计划: 
+  - 高校信息:
+    - 强基计划:
       - 总述: colleges/oh.md
       - 泛信息类专业汇总: colleges/oh-cs.md
     - 综合评价招生:
       - 总述: colleges/admission-outline.md
     - 省份单独招生机制:
       - 总述: colleges/admission-provinces.md
+    - 保研与考研: colleges/postgraduate.md
+    - 出国留学: colleges/overseas.md
   - 关于: about.md
   - 沙盒:
     - 二级目录:
