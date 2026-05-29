@@ -56,6 +56,6 @@ OIer 进入软件工程领域是最自然的路径。算法竞赛训练出的 co
 
 ## 相关链接
 
-- [职业分享投稿](../careers/)
+- [职业分享投稿](../careers/index.md)
 - [退役心路投稿](../stories/index.md)
 - [保研与考研](../colleges/postgraduate.md)

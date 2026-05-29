@@ -37,6 +37,10 @@ nav:
     - 职业发展:
       - 总览: careers/roadmap.md
       - 投稿: careers/index.md
+  - 资源:
+    - 竞赛词典: glossary.md
+    - 资源索引: resources/index.md
+    - 开源项目: projects.md
   - 关于: about.md
   - 沙盒:
     - 二级目录:
