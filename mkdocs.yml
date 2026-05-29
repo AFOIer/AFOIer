@@ -31,6 +31,12 @@ nav:
       - 总述: colleges/admission-provinces.md
     - 保研与考研: colleges/postgraduate.md
     - 出国留学: colleges/overseas.md
+  - 社区:
+    - 退役心路: stories/index.md
+    - 就读体验: experience/index.md
+    - 职业发展:
+      - 总览: careers/roadmap.md
+      - 投稿: careers/index.md
   - 关于: about.md
   - 沙盒:
     - 二级目录:
