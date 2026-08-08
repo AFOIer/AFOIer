@@ -32,6 +32,33 @@ nav:
     - 保研与考研: colleges/postgraduate.md
     - 出国留学: colleges/overseas.md
     - 港新申请: colleges/afoier-db.md
+  - 文化课:
+    - 通用建议: whk/general.md
+    - 贡献指南: whk/contribution.md
+    - 工具资料:
+      - 总述: whk/resources/index.md
+    - 语文:
+      - 总述: whk/subjects/chinese/index.md
+    - 数学:
+      - 总述: whk/subjects/maths/index.md
+    - 英语:
+      - 总述: whk/subjects/english/index.md
+    - 外语小语种（非英语）:
+      - 总述: whk/subjects/foreign-language/index.md
+    - 物理:
+      - 总述: whk/subjects/physics/index.md
+    - 化学:
+      - 总述: whk/subjects/chemistry/index.md
+    - 生物:
+      - 总述: whk/subjects/biology/index.md
+    - 地理:
+      - 总述: whk/subjects/geography/index.md
+    - 思想政治:
+      - 总述: whk/subjects/politics/index.md
+    - 历史:
+      - 总述: whk/subjects/history/index.md
+    - 技术（浙江）:
+      - 总述: whk/subjects/technology/index.md
   - 社区:
     - 退役心路: stories/index.md
     - 就读体验: experience/index.md
