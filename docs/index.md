@@ -15,9 +15,9 @@
 
 ## 相关链接
 
-[关于本项目](index/about.md)
-[常见问题](index/faq.md)
-[贡献指南](index/contribution.md)
+- [关于本项目](index/about.md)
+- [常见问题](index/faq.md)
+- [贡献指南](index/contribution.md)
 
 > 我常常追忆过去。
 >
