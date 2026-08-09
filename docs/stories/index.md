@@ -50,4 +50,4 @@
 ## 相关链接
 
 - [首页](../index.md)
-- [关于本站](../about.md)
+- [关于本站](../index-pages/about.md)

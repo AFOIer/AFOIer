@@ -34,9 +34,13 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 nav:
-  - 首页: index.md
+  - AFOIer: 
+    - Getting Started: index.md
+    - 关于本项目: index-pages/about.md
+    - 贡献指南: index-pages/contribution.md
+    - 常见问题: index-pages/faq.md
   - 高校信息:
-    - 强基计划:
+    - 强基计划: 
       - 总述: colleges/oh.md
       - 泛信息类专业汇总: colleges/oh-cs.md
     - 综合评价招生:
@@ -47,7 +51,7 @@ nav:
     - 出国留学: colleges/overseas.md
     - 港新申请: colleges/afoier-db.md
   - 文化课:
-    - 通用建议: whk/general.md
+    - 文化课: whk.md
     - 贡献指南: whk/contribution.md
     - 工具资料:
       - 总述: whk/resources/index.md
@@ -77,12 +81,12 @@ nav:
     - 退役心路: stories/index.md
     - 就读体验: experience/index.md
     - 职业发展:
-      - 总览: careers/roadmap.md
+      - 职业路线: careers/roadmap.md
       - 投稿: careers/index.md
   - 资源:
     - 竞赛词典: glossary.md
     - 学习资源: resources/index.md
-  - 关于: about.md
+  - 关于: index-pages/about/
   - 沙盒:
     - 二级目录:
       - 测试页面1: sandbox/page1.md

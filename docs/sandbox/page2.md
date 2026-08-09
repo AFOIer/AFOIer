@@ -4,4 +4,6 @@
 
 [链接](https://afoier.wiki/)
 
-[相对链接](../page1/)
+[相对链接](../glossary.md)
+
+$$\frac{114}{514}$$
