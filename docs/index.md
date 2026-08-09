@@ -4,13 +4,20 @@
 
 [Github 仓库链接](https://github.com/AFOIer/AFOIer)
 
-由于本项目主要面向退役 OI(信息学竞赛) 选手，可能会使用一些竞赛领域常用的缩写，如果引起疑惑或误解，欢迎在 Issue 或评论区（还在咕咕）提出。
+建议您在阅读其他内容前，先阅读 [关于本项目](index/about.md) 和 [常见问题](index/faq.md)。
+
+以下为简易版：
+
+- 站内所有内容（包括但不限于文档和程序代码）除非有特殊说明，均按 [CC-BY-SA-4.0 license](https://raw.githubusercontent.com/AFOIer/AFOIer/refs/heads/master/LICENSE) 开源。
+- 即您在转载本站相应内容时，必须表明内容来源为本站，并且您的转载/二次创作内容同样应当以 CC-BY-SA-4.0 license 开源。
+- 本站及所有作者、维护者不对因阅读、使用本站内容造成的损害后果承担任何责任。
+- 如果您不是信息学竞赛（前）选手，本站的内容可能不完全适合您。
 
 ## 相关链接
 
-[关于本项目](index-pages/about.md)
-[常见问题](index-pages/faq.md)
-[贡献指南](index-pages/contribution.md)
+[关于本项目](index/about.md)
+[常见问题](index/faq.md)
+[贡献指南](index/contribution.md)
 
 > 我常常追忆过去。
 >
@@ -23,4 +30,3 @@
 > 过去已经凝固，我带着回忆向前，只是时常疏于保管，回忆也在改变着各自的形态。这给我的追忆旅程带来些许挑战。
 >
 > 我该在哪里停留？我问我自己。
-

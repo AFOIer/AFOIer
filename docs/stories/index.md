@@ -49,5 +49,5 @@
 
 ## 相关链接
 
-- [首页](../index.md)
-- [关于本站](../index-pages/about.md)
+- [Getting Started](../index.md)
+- [关于本站](../index/about.md)

@@ -36,9 +36,9 @@ extra_css:
 nav:
   - AFOIer: 
     - Getting Started: index.md
-    - 关于本项目: index-pages/about.md
-    - 贡献指南: index-pages/contribution.md
-    - 常见问题: index-pages/faq.md
+    - 关于本项目: index/about.md
+    - 贡献指南: index/contribution.md
+    - 常见问题: index/faq.md
   - 高校信息:
     - 强基计划: 
       - 总述: colleges/oh.md
@@ -86,7 +86,7 @@ nav:
   - 资源:
     - 竞赛词典: glossary.md
     - 学习资源: resources/index.md
-  - 关于: index-pages/about/
+  - 关于: index/about/
   - 沙盒:
     - 二级目录:
       - 测试页面1: sandbox/page1.md
